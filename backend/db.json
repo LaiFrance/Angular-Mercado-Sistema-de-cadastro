@@ -1,0 +1,68 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "name": "Laise Farias France",
+      "cpf": "000.000.000-00",
+      "cidade": "Recife",
+      "estado": "PE",
+      "email": "laise94@hotmail.com",
+      "telefone": 81992913270
+    },
+    {
+      "id": 2,
+      "name": "Maria Farias France",
+      "cpf": "000.000.000-02",
+      "cidade": "Recife",
+      "estado": "PE",
+      "email": "laise94@hotmail.com",
+      "telefone": 81992913270
+    },
+    {
+      "id": 3,
+      "name": "Laise Farias France",
+      "cpf": "000.000.000-00",
+      "cidade": "Recife",
+      "estado": "PE",
+      "email": "laise94@hotmail.com",
+      "telefone": 81992913270
+    },
+    {
+      "id": 4,
+      "name": "Laise Farias France",
+      "cpf": "000.000.000-00",
+      "cidade": "Recife",
+      "estado": "PE",
+      "email": "laise94@hotmail.com",
+      "telefone": 81992913270
+    },
+    {
+      "id": 5,
+      "name": "raoni costa",
+      "cpf": "000.000.000-00",
+      "cidade": "recife",
+      "estado": "PE",
+      "email": "raonicosta07@gmail.com",
+      "telefone": 81992071884
+    },
+    {
+      "id": 6,
+      "name": "maria costa",
+      "cpf": "000.000.000-00",
+      "cidade": "recife",
+      "estado": "PE",
+      "email": "raonicosta07@gmail.com",
+      "telefone": 81992071884
+    },
+    {
+        "id": 7,
+      "name": "maria france",
+      "cpf": "000.000.000-00",
+      "cidade": "recife",
+      "estado": "PE",
+      "email": "raonicosta07@gmail.com",
+      "telefone": 81992071884
+      
+    }
+  ]
+}
