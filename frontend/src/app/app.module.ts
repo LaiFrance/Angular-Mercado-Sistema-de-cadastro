@@ -10,7 +10,15 @@ import { ProdutosComponent } from './components/produtos/produtos.component';
 import { UsersComponent } from './components/users/users.component';
 import { EntregadoresComponent } from './components/entregadores/entregadores.component';
 import { DescontosComponent } from './components/descontos/descontos.component';
-import {MatToolbarModule} from '@angular/material/toolbar';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { FooterComponent } from './components/footer/footer.component';
+import { AppRoutingModule } from './app-routing.module';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule} from '@angular/material/list';
+import { NavbarComponent } from './components/template/header/navbar/sidenavbar/navbar.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { BotoesComponent } from './botoes/botoes.component';
+
 
 @NgModule({
   declarations: [
@@ -21,12 +29,20 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     ProdutosComponent,
     UsersComponent,
     EntregadoresComponent,
-    DescontosComponent
+    DescontosComponent,
+    FooterComponent,
+    NavbarComponent,
+    CarouselComponent,
+    BotoesComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatSidenavModule,
+    MatListModule,
+    AppRoutingModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

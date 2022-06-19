@@ -1,0 +1,17 @@
+
+
+.w-75 {
+    
+    width: 50%!important;
+}
+
+.carousel-item {
+    background-color: aqua;
+}
+
+.col-sm-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 65%;
+}
+
