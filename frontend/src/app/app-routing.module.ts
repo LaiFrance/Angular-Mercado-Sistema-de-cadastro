@@ -12,7 +12,7 @@ import { AppComponent } from './app.component';
 const routes: Routes = [
   {
     path: "",
-    component: AppComponent
+    component: LoginComponent
 },
   {
     path: "home", component: HomeComponent
@@ -23,16 +23,16 @@ const routes: Routes = [
     
   },
   {
-    path: 'produtos', component: ProdutosComponent
+    path: "produtos", component: ProdutosComponent
     
   },
   {
-    path: 'users', component: UsersComponent
+    path: "users", component: UsersComponent
     
   },
   
   {
-    path: 'descontos', component: DescontosComponent
+    path: "descontos", component: DescontosComponent
     
   },
   {
@@ -41,7 +41,7 @@ const routes: Routes = [
   },
 ]
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

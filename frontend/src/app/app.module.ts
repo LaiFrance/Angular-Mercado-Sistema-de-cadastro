@@ -16,8 +16,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule} from '@angular/material/list';
 import { NavbarComponent } from './components/template/header/navbar/sidenavbar/navbar.component';
-import { CarouselComponent } from './carousel/carousel.component';
-import { BotoesComponent } from './botoes/botoes.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
+import { BotoesComponent } from './components/botoes/botoes.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { BotoesComponent } from './botoes/botoes.component';
     MatSidenavModule,
     MatListModule,
     AppRoutingModule,
-    MatSidenavModule
+    MatSidenavModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
