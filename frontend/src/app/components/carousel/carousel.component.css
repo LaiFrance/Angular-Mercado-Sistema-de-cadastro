@@ -11,6 +11,13 @@
     background-color: aqua;
 }
 
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+}
+
 .col-sm-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
